@@ -1,12 +1,9 @@
-package java_project;
-
-/**
- * program
- */
 public class program {
     public static void main(String[] args) {
         int i = 123;
-        System.out.println(Integer.MAX_VALUE);
+        System.out.println(i); // выводит в консоль i
+        System.out.println(Integer.MAX_VALUE); // выводит в консоль максимально возможное числ
+        System.out.println(Integer.MIN_VALUE); // выводит в консоль минимально возможное числ
     }
 }
 /*
