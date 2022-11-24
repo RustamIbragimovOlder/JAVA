@@ -157,7 +157,8 @@ public class program {
        System.out.println(b);  // NumberFormatException: Value out of range
    }
 }
- * 
+ *
+ *  
  * Получение данных от пользователя (из терминала):
  * 
  * Строки
