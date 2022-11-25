@@ -6,7 +6,7 @@ public class Example1 {
         // создать строку из 1 млн "+", будет выполняться около 1 мин.
         String str = "";
         for (int i = 0; i < 1_000_000; i++) {
-            str += "+";
+            str = str + "+";
         }
         System.out.println(System.currentTimeMillis() - s);
         // есть другой способ, будет выполняться около 9 msec.
