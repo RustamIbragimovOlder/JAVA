@@ -6,7 +6,10 @@
 package Java_PracticalTasks.PT1;
 
 public class PT1_4 {
+    
+    // Мой вариант
     public static void main(String[] args) {
+        
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 if ((10 + i) + ((j * 10) + 5) == 69) {
@@ -18,4 +21,5 @@ public class PT1_4 {
         }
     }
 }
-    
+
+
