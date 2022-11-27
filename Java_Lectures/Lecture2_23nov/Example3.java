@@ -1,9 +1,7 @@
 package Java_Lectures.Lecture2_23nov;
 
-import java.lang.System.Logger;
-import java.lang.System.Logger.Level;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.SimpleFormatter;
+// import java.io.IOException;
+import java.util.logging.*;
 
 public class Example3 {
     public static void main(String[] args) {
@@ -14,10 +12,8 @@ public class Example3 {
         logger.addHandler(ch);
         SimpleFormatter sFormat = new SimpleFormatter();
         ch.setFormatter(sFormat);
-        logger.log(Level.WARNING, "Тестовое логирование");
-        logger.info("Тестовое логирование");
-
-
+        logger.log(Level.WARNING, "Тестовое логирование 1");
+        logger.info("Тестовое логирование 2");
 
     }
 }

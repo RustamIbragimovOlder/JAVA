@@ -3,18 +3,16 @@ package Java_Lectures.Lecture3_26nov;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.*;
 import java.util.Iterator;
 
-// import java.util.Collection;
-// import java.util.HashSet;
-// import java.util.Queue;
 
 public class Example3 {
     public static void main (String[] args) {
-        // ArrayList<Integer> list = new ArrayList<Integer>();
-        ArrayList list = new ArrayList();
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        // ArrayList list = new ArrayList();
         list.add(2809);
-        list.add("string line");
+        // list.add("string line");
         for (Object o : list) {
             System.out.println(o); // Проблема извлечения данных
         }
@@ -31,16 +29,15 @@ public class Example3 {
         StringBuilder day1 = new StringBuilder("28");
         StringBuilder month1 = new StringBuilder("9");
         StringBuilder year1 = new StringBuilder("1990");
-        StringBuilder[] date1 = { day1, month1, year1 };
-        List<StringBuilder> d1 = Arrays.asList(date);
+        List<StringBuilder> d1 = Arrays.asList(day1, month1, year1);
         System.out.println(d1);
 
         // пример Итератора:
-        List<Integer> list = List.of(1, 12, 123, 1234, 12345);
+        List<Integer> list2 = List.of(1, 12, 123, 1234, 12345);
         
-        for (int item : list) { System.out.println(item); }
+        for (int item : list2) { System.out.println(item); }
         
-        Iterator<Integer> col = list.iterator();
+        Iterator<Integer> col = list2.iterator();
         while (col.hasNext()) {
            System.out.println(col.next());
         //    col.next();

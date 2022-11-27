@@ -19,17 +19,17 @@ public class Files {
         }
 
         // Чтение, Вариант посимвольно
-        FileReader fr = new FileReader("file.txt");
-        int c;
-        while ((c = fr.read()) != -1) {
-            char ch = (char) c;
-            if (ch == '\n') {
-                System.out.print(ch);
-            }
-            else {
-                System.out.print(ch);
-            }
-        }
+        // FileReader fr = new FileReader("file.txt");
+        // int c;
+        // while ((c = fr.read()) != -1) {
+        //     char ch = (char) c;
+        //     if (ch == '\n') {
+        //         System.out.print(ch);
+        //     }
+        //     else {
+        //         System.out.print(ch);
+        //     }
+        // }
 
         // Чтение, Вариант построчно
         BufferedReader br = new BufferedReader(new FileReader("file.txt"));
