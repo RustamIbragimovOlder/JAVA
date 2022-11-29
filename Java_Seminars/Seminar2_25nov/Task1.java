@@ -6,7 +6,7 @@ package Java_Seminars.Seminar2_25nov;
 
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println(alternatingCharacters(9, 'A', '_'));
+        System.out.println(alternatingCharacters(150, '+', '&'));
     }
 
     private static String alternatingCharacters (int length, char c1, char c2) {

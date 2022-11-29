@@ -2,17 +2,17 @@
 // и определяет является ли строка палиндромом
 // (возвращает boolean значение).
 
-
 package Java_Seminars.Seminar2_25nov;
 
 public class Task3 {
-    public static void main(String[] args) {
-        String s = "123454321";
-        System.out.println(s);
-        String res = new StringBuilder(s).reverse().toString();
-        System.out.println(res);
-        System.out.println((s.equals(res)));
+    public static void main (String[] args) {
+        String str = "12asd34543dsa21";
+        System.out.println(str);
+        System.out.println(check_palindrome(str));
     }
 
-       
+        public static boolean check_palindrome (String S) {
+        String res = new StringBuilder(S).reverse().toString();
+        return (S.equals(res));
+    }
 }

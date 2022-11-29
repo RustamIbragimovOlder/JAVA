@@ -1,0 +1,7 @@
+.git
+.gitignore
+file.txt
+Java_Lectures
+Java_PracticalTasks
+Java_Seminars
+sem2task4.txt

@@ -6,8 +6,8 @@ package Java_Seminars.Seminar2_25nov;
 
 public class Task2 {
     public static void main(String[] args) {
-        System.out.println(compressString("aaaabbbcdd"));
-        
+        String str = "ccccaaaaaaaafffbbbbddkkkkkkk";
+        System.out.println(str + " -> " + compressString(str));
     }
     
     public static String compressString (String S) {
@@ -27,9 +27,10 @@ public class Task2 {
             }
 
         }
+
         sb.append(S.charAt(length-1)).append(count);
         String answer = sb.toString();
-        return answer.length() < length ? answer: S;
+        return answer.length() < length ? answer : S;
     }
 }
 
